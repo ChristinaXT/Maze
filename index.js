@@ -1,4 +1,4 @@
-const { Engine, Render, Runner, World, Bodies, MouseConstraint, Mouse } = Matter;
+const { Engine, Render, Runner, World, Bodies } = Matter;
 
 const width = 800;
 const height = 600;
