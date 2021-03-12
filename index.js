@@ -5,7 +5,6 @@ const height = 600;
 
 
 
-
 const engine = Engine.create();
 const { world } = engine;
 const render = Render.create({
