@@ -39,3 +39,5 @@ for (let i = 0; i < 3; i++) {
     grid[i].push(false);
   }
 }
+
+console.log(grid);
