@@ -32,7 +32,14 @@ World.add(world, walls);
 // Maze generation
 
 const grid = Array(3)
+  .fill(null)
+  .map(() => Array(3).fill(false));
 
+const verticals = Array(3)
+  .fill(null)
+  .map(() => Array(2).fill(false));
+
+console.log(grid);
 
 // const grid = [];
 //
