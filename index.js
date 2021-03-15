@@ -31,7 +31,7 @@ World.add(world, walls);
 
 // Maze generation
 
-const grid = 
+const grid = Array(3)
 
 
 // const grid = [];
