@@ -51,6 +51,12 @@ const recurseMaze = (row, column) => {
 
 
   //Mark this cell as being visited
+
+  //Assemble randomly-ordered list of neighbors
+
+  //For each neighbor, ...
+
+  // See if that neighbor is out of bounds
 };
 
 recurseMaze(startRow, startColumn)
