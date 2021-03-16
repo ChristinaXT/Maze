@@ -35,7 +35,7 @@ const shuffle = (arr) => {
   let counter = arr.length;
 
   while (counter > 0) {
-    
+    const index = Math.floor(Math.random() * counter);
   }
 };
 
