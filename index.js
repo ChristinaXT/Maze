@@ -47,16 +47,22 @@ const startRow = Math.floor(Math.random() * cells);
 const startColumn = Math.floor(Math.random() * cells);
 
 const recurseMaze = (row, column) => {
-  //If I have visited the cell at [row, column], then return
+  // If I have visited the cell at [row, column], then return
 
 
-  //Mark this cell as being visited
+  // Mark this cell as being visited
 
-  //Assemble randomly-ordered list of neighbors
+  // Assemble randomly-ordered list of neighbors
 
-  //For each neighbor, ...
+  // For each neighbor, ...
 
   // See if that neighbor is out of bounds
+
+  // If we have visited that neighbor, continue to next neighbor
+
+  // Remove a wall from either horizontals or verticals
+
+  // Visit that next cell
 };
 
 recurseMaze(startRow, startColumn)
