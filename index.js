@@ -44,7 +44,7 @@ const horizontals = Array(cells - 1)
   .map(() => Array(cells).fill(false));
 
 const startRow = Math.floor(Math.random() * cells);
-
+const startColumn = Math.floor(Math.random() * cells);
 // const grid = [];
 //
 // for (let i = 0; i < 3; i++) {
