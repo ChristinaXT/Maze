@@ -31,6 +31,10 @@ World.add(world, walls);
 
 // Maze generation
 
+const shuffle = (arr) => {
+  
+};
+
 const grid = Array(cells)
   .fill(null)
   .map(() => Array(cells).fill(false));
