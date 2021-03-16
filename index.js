@@ -47,10 +47,13 @@ const startRow = Math.floor(Math.random() * cells);
 const startColumn = Math.floor(Math.random() * cells);
 
 const recurseMaze = (row, column) => {
+  //If I have visited the cell at [row, column], then return
 
+
+  //Mark this cell as being visited
 };
 
-recurseMaze(startRow, startColumn);
+recurseMaze(startRow, startColumn)
 
 // const grid = [];
 //
