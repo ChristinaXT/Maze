@@ -45,6 +45,10 @@ const horizontals = Array(cells - 1)
 
 const startRow = Math.floor(Math.random() * cells);
 const startColumn = Math.floor(Math.random() * cells);
+
+console.log(startRow, startColumn);
+
+
 // const grid = [];
 //
 // for (let i = 0; i < 3; i++) {
