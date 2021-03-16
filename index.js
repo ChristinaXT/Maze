@@ -48,10 +48,12 @@ const startColumn = Math.floor(Math.random() * cells);
 
 const recurseMaze = (row, column) => {
   // If I have visited the cell at [row, column], then return
-
+  if (grid[row][column]) {
+    return;
+  }
 
   // Mark this cell as being visited
-
+  grid[row][column] = true;
   // Assemble randomly-ordered list of neighbors
 
   // For each neighbor, ...
