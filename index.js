@@ -46,7 +46,9 @@ const horizontals = Array(cells - 1)
 const startRow = Math.floor(Math.random() * cells);
 const startColumn = Math.floor(Math.random() * cells);
 
+const recurseMaze = () => {
 
+};
 
 
 // const grid = [];
