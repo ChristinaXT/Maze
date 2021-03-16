@@ -47,9 +47,10 @@ const startRow = Math.floor(Math.random() * cells);
 const startColumn = Math.floor(Math.random() * cells);
 
 const recurseMaze = (row, column) => {
-  
+
 };
 
+recurseMaze(startRow, startColumn);
 
 // const grid = [];
 //
