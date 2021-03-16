@@ -55,7 +55,12 @@ const recurseMaze = (row, column) => {
   // Mark this cell as being visited
   grid[row][column] = true;
   // Assemble randomly-ordered list of neighbors
-
+  const neighbors = [
+    [row - 1, column],
+    [row, column + 1],
+    [row + 1, column],
+    [row, column - 1]
+  ];
   // For each neighbor, ...
 
   // See if that neighbor is out of bounds
