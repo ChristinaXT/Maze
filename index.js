@@ -86,7 +86,6 @@ const recurseMaze = (row, column) => {
 
 
 
-
   // Remove a wall from either horizontals or verticals
 
   // Visit that next cell
