@@ -82,7 +82,6 @@ const recurseMaze = (row, column) => {
 
   // If we have visited that neighbor, continue to next neighbor
 
-
   // Remove a wall from either horizontals or verticals
 
   // Visit that next cell
