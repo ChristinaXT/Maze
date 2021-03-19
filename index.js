@@ -94,7 +94,6 @@ const recurseMaze = (row, column) => {
 
 
 
-
   // Mark this cell as being visited
   grid[row][column] = true;
   // Assemble randomly-ordered list of neighbors
