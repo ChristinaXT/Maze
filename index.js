@@ -80,6 +80,7 @@ const recurseMaze = (row, column) => {
 
   // For each neighbor ...
   for (let neighbor of neighbors) {
+    const [nextRow, nextColumn] = neighbor;
 
   // See if that neighbor is out of bounds
 
