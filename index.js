@@ -72,10 +72,10 @@ const recurseMaze = (row, column) => {
   grid[row][column] = true;
   // Assemble randomly-ordered list of neighbors
   const neighbors = shuffle([
-    [row - 1, column],
-    [row, column + 1],
-    [row + 1, column],
-    [row, column - 1]
+    [row - 1, column, 'up'],
+    [row, column + 1, 'right'],
+    [row + 1, column, 'down'],
+    [row, column - 1, 'left']
   ]);
 
   // For each neighbor ...
@@ -91,6 +91,7 @@ const recurseMaze = (row, column) => {
     continue;
   }
   // Remove a wall from either horizontals or verticals
+
  }
   // Visit that next cell
 };
