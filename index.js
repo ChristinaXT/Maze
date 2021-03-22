@@ -104,4 +104,4 @@ const recurseMaze = (row, column) => {
   // Visit that next cell
 };
 
-recurseMaze(1, 1);
+recurseMaze(startRow, startColumn);
