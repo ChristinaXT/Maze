@@ -78,7 +78,7 @@ const recurseMaze = (row, column) => {
     [row, column - 1]
   ]);
   console.log(neighbors);
-  
+
   // For each neighbor, ...
 
   // See if that neighbor is out of bounds
@@ -90,4 +90,5 @@ const recurseMaze = (row, column) => {
   // Visit that next cell
 };
 
-recurseMaze(startRow, startColumn)
+recurseMaze(startRow, startColumn);
+console.log(grid);
