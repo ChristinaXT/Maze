@@ -83,7 +83,9 @@ const recurseMaze = (row, column) => {
     const [nextRow, nextColumn] = neighbor;
 
   // See if that neighbor is out of bounds
-  if (nextRow < 0 || nextRow >= cells)
+  if (nextRow < 0 || nextRow >= cells || nextColumn < 0 || nextColumn >= cells) {
+    
+  }
   // If we have visited that neighbor, continue to next neighbor
 
   // Remove a wall from either horizontals or verticals
