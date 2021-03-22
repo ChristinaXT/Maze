@@ -115,5 +115,7 @@ horizontals.forEach(row => {
    if (open) {
      return;
    }
+
+   const wall = Bodies.rectangle();
  });
 });
