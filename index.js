@@ -111,6 +111,9 @@ const recurseMaze = (row, column) => {
 recurseMaze(startRow, startColumn);
 
 horizontals.forEach(row => {
-  console.log(row);
-
+ row.forEach((open) => {
+   if (open) {
+     return;
+   }
+ });
 });
