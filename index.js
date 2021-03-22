@@ -91,7 +91,9 @@ const recurseMaze = (row, column) => {
     continue;
   }
   // Remove a wall from either horizontals or verticals
-
+  if (direction === 'left') {
+    verticals[row][columns - 1]
+  }
  }
   // Visit that next cell
 };
