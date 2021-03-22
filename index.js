@@ -42,8 +42,9 @@ const shuffle = (arr) => {
     const temp = arr[counter];
     arr[counter] = arr[index];
     arr[index] = temp;
-
   }
+
+  return arr;
 };
 
 const grid = Array(cells)
