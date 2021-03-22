@@ -100,6 +100,10 @@ const recurseMaze = (row, column) => {
   } else if (direction === 'down') {
     horizontals[row][column] = true;
   }
+
+
+  recurseMaze(startRow, startColumn);
+
  }
   // Visit that next cell
 };
