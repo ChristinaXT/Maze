@@ -144,5 +144,6 @@ verticals.forEach((row, rowIndex) => {
         isStatic: true
       }
     );
+    World.add(world, wall);
   });
 });
