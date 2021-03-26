@@ -152,3 +152,5 @@ verticals.forEach((row, rowIndex) => {
 const goal = Bodies.rectangle(
 
 );
+
+World.add(world, goal);
