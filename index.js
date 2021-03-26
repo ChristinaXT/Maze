@@ -134,5 +134,7 @@ verticals.forEach((row, rowIndex) => {
   row.forEach((open, columnIndex) => {
     if (open) {
       return;
-  }
+    }
+    
+  });
 });
