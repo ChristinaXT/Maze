@@ -129,3 +129,7 @@ horizontals.forEach(row, rowIndex )=> {
    world.add(world, wall);
  });
 });
+
+verticals.forEach(() => {
+
+});
