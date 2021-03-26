@@ -126,5 +126,6 @@ horizontals.forEach(row, rowIndex )=> {
        isStatic: true
      }
    );
+   world.add(world, wall);
  });
 });
