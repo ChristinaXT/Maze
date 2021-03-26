@@ -130,6 +130,6 @@ horizontals.forEach(row, rowIndex )=> {
  });
 });
 
-verticals.forEach(() => {
-
+verticals.forEach((row, rowIndex) => {
+  row.forEach
 });
