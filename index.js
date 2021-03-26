@@ -111,7 +111,7 @@ const recurseMaze = (row, column) => {
 
 recurseMaze(startRow, startColumn);
 
-horizontals.forEach(row, rowIndex)=> {
+horizontals.forEach((row, rowIndex) => {
  row.forEach((open, columnIndex) => {
    if (open) {
      return;
@@ -135,6 +135,7 @@ verticals.forEach((row, rowIndex) => {
     if (open) {
       return;
     }
+
     const wall = Bodies.rectangle(
       columnIndex * unitLength + unitLength,
       rowIndex = unitLength + unitLength / 2,
