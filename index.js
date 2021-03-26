@@ -139,7 +139,7 @@ verticals.forEach((row, rowIndex) => {
       columnIndex * unitLength + unitLength,
       rowIndex = unitLength + unitLength / 2,
       10,
-      
+      unitLength,
     );
   });
 });
