@@ -121,7 +121,10 @@ horizontals.forEach(row, rowIndex )=> {
      columnIndex * unitLength + unitLength / 2,
      rowIndex * unitLength + unitLength,
      unitLength,
-     
+     10,
+     {
+       isStatic: true
+     }
    );
  });
 });
