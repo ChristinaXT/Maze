@@ -135,6 +135,8 @@ verticals.forEach((row, rowIndex) => {
     if (open) {
       return;
     }
-    const wall = Bodies.rectangle();
+    const wall = Bodies.rectangle(
+
+    );
   });
 });
