@@ -118,7 +118,7 @@ horizontals.forEach(row => {
    }
 
    const wall = Bodies.rectangle(
-
+     columnIndex * unitLength + unitLength / 2
    );
  });
 });
