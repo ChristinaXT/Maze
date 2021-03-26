@@ -120,6 +120,7 @@ horizontals.forEach(row, rowIndex )=> {
    const wall = Bodies.rectangle(
      columnIndex * unitLength + unitLength / 2,
      rowIndex * unitLength + unitLength,
+     unitLength,
      
    );
  });
