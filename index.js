@@ -111,7 +111,7 @@ const recurseMaze = (row, column) => {
 
 recurseMaze(startRow, startColumn);
 
-horizontals.forEach(row, rowIndex )=> {
+horizontals.forEach(row, rowIndex)=> {
  row.forEach((open, columnIndex) => {
    if (open) {
      return;
@@ -131,5 +131,8 @@ horizontals.forEach(row, rowIndex )=> {
 });
 
 verticals.forEach((row, rowIndex) => {
-  row.forEach
+  row.forEach((open, columnIndex) => {
+    if (open) {
+      return;
+  }
 });
