@@ -140,6 +140,9 @@ verticals.forEach((row, rowIndex) => {
       rowIndex = unitLength + unitLength / 2,
       10,
       unitLength,
+      {
+        isStatic: true
+      }
     );
   });
 });
