@@ -136,7 +136,7 @@ verticals.forEach((row, rowIndex) => {
       return;
     }
     const wall = Bodies.rectangle(
-
+      columnIndex * unitLength + unitLength,
     );
   });
 });
